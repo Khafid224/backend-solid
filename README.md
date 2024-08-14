@@ -23,6 +23,14 @@ npx degit solidjs/templates/js yournameproject
 ![image](https://github.com/user-attachments/assets/b581b7de-5ca2-459e-a732-ad7b429fae99)
 ![image](https://github.com/user-attachments/assets/e8c302c9-3f7d-4738-94d3-41efd1309bd5)
 
+## uji coba delete data
+
+peringatan alert
+![image](https://github.com/user-attachments/assets/a6b10274-69dc-4374-9057-95643f72a7aa)
+
+jika klik ok, maka data akan dihapus di database
+![image](https://github.com/user-attachments/assets/3c99c250-b3dc-40af-91db-66c8a5fea618)
+
 
 
 
