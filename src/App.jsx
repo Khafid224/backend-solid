@@ -1,24 +1,56 @@
-import logo from './logo.svg';
-import styles from './App.module.css';
+import { A } from "@solidjs/router";
 
-function App() {
+function App({ children }) {
   return (
-    <div class={styles.App}>
-      <header class={styles.header}>
-        <img src={logo} class={styles.logo} alt="logo" />
-        <p>
-          Edit <code>src/App.jsx</code> and save to reload.
-        </p>
-        <a
-          class={styles.link}
-          href="https://github.com/solidjs/solid"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn Solid
-        </a>
-      </header>
-    </div>
+    <>
+      <div>
+        <nav className="navbar navbar-expand-lg bg-dark" data-bs-theme="dark">
+          <div className="container">
+            <A href="/" className="navbar-brand">
+              HOME
+            </A>
+            <button
+              className="navbar-toggler"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#navbarSupportedContent"
+              aria-controls="navbarSupportedContent"
+              aria-expanded="false"
+              aria-label="Toggle navigation"
+            >
+              <span className="navbar-toggler-icon"></span>
+            </button>
+            <div
+              className="collapse navbar-collapse"
+              id="navbarSupportedContent"
+            >
+              <ul className="navbar-nav me-auto mb-2 mb-lg-0">
+                <li className="nav-item">
+                  <A
+                    href="/posts"
+                    className="nav-link active"
+                    aria-current="page"
+                  >
+                    POSTS
+                  </A>
+                </li>
+              </ul>
+              <ul className="navbar-nav ms-auto mb-2 mb-lg-0" role="search">
+                <a
+                  href="https://github.com/Khafid224"
+                  target="_blank"
+                  className="btn btn-success"
+                >
+                  GITHUB
+                </a>
+              </ul>
+            </div>
+          </div>
+        </nav>
+      </div>
+
+      <div class="container">{children}</div>
+    </>
   );
 }
 
