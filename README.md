@@ -16,6 +16,8 @@ npx degit solidjs/templates/js yournameproject
 
 ![image](https://github.com/user-attachments/assets/7d880390-0a7d-44c4-8e65-9cde8efc9290)
 ![image](https://github.com/user-attachments/assets/42bfd68b-1f81-41c8-af11-e7acdb967110)
+![image](https://github.com/user-attachments/assets/a6456f44-9297-4d8d-bc4d-da6c98b3e5e4)
+
 
 
 
