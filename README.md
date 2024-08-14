@@ -32,3 +32,9 @@ Your app is ready to be deployed!
 ## Deployment
 
 You can deploy the `dist` folder to any static host provider (netlify, surge, now, etc.)
+
+## Menjalankan project solid js
+
+npx degit solidjs/templates/js yournameproject
+![image](https://github.com/user-attachments/assets/a7e6309f-3836-4432-b259-53dd0714b29b)
+
